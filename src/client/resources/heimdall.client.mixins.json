@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "me.jetabyte.heimdall.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"FarPlaneMixin",
+		"FogMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

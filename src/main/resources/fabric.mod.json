@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "heimdall",
+	"version": "${version}",
+	"name": "heimdall",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/heimdall/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.jetabyte.heimdall.Heimdall"
+		],
+		"client": [
+			"me.jetabyte.heimdall.HeimdallClient"
+		],
+		"fabric-datagen": [
+			"me.jetabyte.heimdall.HeimdallDataGenerator"
+		]
+	},
+	"mixins": [
+		"heimdall.mixins.json",
+		{
+			"config": "heimdall.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

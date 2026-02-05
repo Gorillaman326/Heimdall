@@ -1,13 +1,29 @@
-MIT License
-
 Copyright (c) 2026 Gorillaman326
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software and modified versions of the Software
+for NON-COMMERCIAL purposes only, subject to the following conditions:
+
+1. Attribution Required  
+   Any use, modification, or distribution of the Software must include
+   proper credit to the original author (Gorillaman326) and a link to the
+   original source repository.
+
+2. Non-Commercial Use Only  
+   The Software, in original or modified form, may not be sold, sublicensed,
+   monetized, or used for any commercial purpose. This includes, but is not
+   limited to, paid distribution, paid access, or inclusion in commercial
+   products or services.
+
+3. Share of Modifications  
+   If you distribute a modified version of the Software, you must make the
+   modified source code available under this same license and include
+   attribution to the original author.
+
+4. No Patents  
+   You may not patent, claim patent rights over, or assert patent claims
+   related to the Software or any derivatives thereof.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
